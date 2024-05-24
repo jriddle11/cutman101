@@ -1,0 +1,36 @@
+.navMain{
+    
+    color: white;
+    display: inline;
+    position: fixed;
+    width: 100%;
+    height: 13vh;
+}
+
+html:has([data-scroll='0']) .navMain{
+    background-color: transparent;
+}
+
+.navTitle{
+    margin-left: 10vh;
+}
+
+.navLinksDiv{
+    margin-left: auto; 
+    display: inline-block;
+    position: fixed;
+    right: 15vh;
+    top: 8vh;
+}
+
+.navLink{
+    margin-right: 15vh;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    right: 0;
+  }
+
+  .navLink:hover{
+    color: rgb(167, 0, 0);
+  }
