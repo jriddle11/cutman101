@@ -7,10 +7,10 @@ import {
 
 import Home from './Home';
 import NavBar from './NavBar';
-import About from './About';
-import HowTo from './HowTo';
+import Guide from './Guide';
 import Contact from './Contact';
 import Gallery from "./Gallery";
+import FAQ from './FAQ';
 import './App.css';
 
 function App() {
@@ -21,9 +21,9 @@ function App() {
         <NavBar />
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/how" element={<HowTo />} />
+            <Route exact path="/how" element={<Guide />} />
             <Route exact path="/gallery" element={<Gallery />} />
-            <Route exact path="/about" element={<About />} />
+            <Route exact path="/faq" element={<FAQ />} />
             <Route exact path="/contact" element={<Contact />} />
           </Routes>
         </Router>

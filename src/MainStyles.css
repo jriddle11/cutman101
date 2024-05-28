@@ -1,0 +1,9 @@
+.noSelect{
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.mainDiv{
+    height: 101vh;
+}

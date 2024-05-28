@@ -1,4 +1,21 @@
 .homeMain{
-    background-color: grey;
-    height: 100vh;
+    background-color: black;
+    border-bottom-left-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+}
+
+.champImg{
+    height: 45.8vh;
+    width: 28vh;
+    position: absolute;
+    bottom: 20vh;
+    left: 25vw;
+}
+
+.quoteImg{
+    height: 15vw;
+    width: 30vw;
+    position: absolute;
+    top: 40vh;
+    right: 20vw;
 }
