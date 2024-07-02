@@ -1,0 +1,49 @@
+.faqMain{
+    top:25vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.questionsContainer{
+    background-color: rgb(227, 227, 227);
+    width: 60%;
+    margin-top: 15vh;
+    border-radius: 2.5vw;
+}
+
+.faqTitle{
+    margin-top: 25vh;
+}
+
+.questionDiv{
+    width: 100%;
+    height: 25vh;
+    border-bottom-left-radius: 2.5vw;
+    border-bottom-right-radius: 2.5vw;
+}
+
+.questionHeader:hover{
+    cursor: pointer;
+}
+
+.answer{
+    background-color: blue;
+}
+
+.questionHeader{
+    background-color: red;
+}
+
+
+.headerText{
+    font-size: 2vw;
+    margin-left: 2vw;
+    font-weight: bold;
+}
+
+.answerText{
+    margin-left: 5vw;
+}
