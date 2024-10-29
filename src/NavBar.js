@@ -2,7 +2,7 @@ import './NavBar.css';
 import './MainStyles.css';
 import React from "react";
 import { Link } from 'react-router-dom';
-import Title from './Images/Title.png';
+import Title from './RootImages/Title.png';
 
 function NavBar(){
     return (
@@ -16,10 +16,9 @@ function NavBar(){
             <p>
                 <Link to="/how" className='navLink' onClick={() => {window.scroll(0, 0); }}>Course</Link>
                 <Link to="/gallery" className='navLink' onClick={() => {window.scroll(0, 0); }}>Gallery</Link>
+                <Link to="/shop" className='navLink' onClick={() => {window.scroll(0, 0); }}>Shop</Link>
                 <Link to="/faq" className='navLink' onClick={() => {window.scroll(0, 0); }}>FAQ</Link>
                 <Link to="/#about" className='navLink'>About</Link>
-                <Link to="/contact" className='navLink' onClick={() => {window.scroll(0, 0); }}>Contact</Link>
-                
             </p>
         </div>
       </div>

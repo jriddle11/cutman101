@@ -1,28 +1,28 @@
 .faqMain{
-    top:25vh;
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
+    position: relative;
+    padding-bottom: 30vh;
 }
 
 .questionsContainer{
     background-color: rgb(227, 227, 227);
     width: 60%;
-    margin-top: 15vh;
-    border-radius: 2.5vw;
+    top: 50vh;
+    position: absolute;
 }
 
 .faqTitle{
-    margin-top: 25vh;
+    top: 25vh;
+    position: absolute;
 }
 
 .questionDiv{
     width: 100%;
-    height: 25vh;
-    border-bottom-left-radius: 2.5vw;
-    border-bottom-right-radius: 2.5vw;
+    border-bottom: solid black 1px;
 }
 
 .questionHeader:hover{
@@ -30,11 +30,11 @@
 }
 
 .answer{
-    background-color: blue;
+    display: flex;
 }
 
 .questionHeader{
-    background-color: red;
+    
 }
 
 

@@ -1,15 +1,13 @@
 .homeMain{
     background-color: black;
-    border-bottom-left-radius: 2.5vw;
-    border-bottom-right-radius: 2.5vw;
+    justify-content: center;
+    text-align: center;
 }
 
 .champImg{
-    height: 45.8vh;
-    width: 28vh;
-    position: absolute;
-    bottom: 20vh;
-    left: 25vw;
+    height: 25.27vw;
+    width: 52.71vw;
+    margin-top: 15vh;
 }
 
 .quoteImg{
@@ -18,4 +16,20 @@
     position: absolute;
     top: 40vh;
     right: 20vw;
+}
+
+/*Phone styles*/
+@media screen and (max-width: 767px) {
+    .quoteImg {
+        height: 30vw;
+        width: 60vw;
+        top: 10vh;
+        right: 10vw;
+    }
+
+    .champImg{
+        height: 117.2vw;
+        width: 86vw;
+        margin-top: 5vh;
+    }
 }

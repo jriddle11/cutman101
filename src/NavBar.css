@@ -10,16 +10,32 @@
     border-bottom-right-radius: 2.5vw;
 }
 
+.altBar{
+    color: whitesmoke;
+    font-size: x-large;
+}
+
+.altLink{
+    margin-right: 1vw;
+}
+
+.noDec{
+    text-decoration: none;
+    color: inherit;
+}
+
 html:has([data-scroll='0']) .navMain{
     background-color: transparent;
 }
 
 .titleImg{
-    margin-left: 10vw;
-    height: 10vw;
-    width: 20vw;
+    height: 7.11vh;
+    width: 30vh;
 }
 
+.spacer{
+    margin-right: 24vw; /*15vw orig */
+}
 .navLinksDiv{
     margin-left: auto; 
     display: inline-block;
@@ -39,3 +55,9 @@ html:has([data-scroll='0']) .navMain{
   .navLink:hover{
     color: rgb(167, 0, 0);
   }
+
+  @media screen and (max-width: 768px) {
+    .spacer{
+        margin-right: 15vw;
+    }
+}

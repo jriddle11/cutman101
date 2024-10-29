@@ -1,0 +1,15 @@
+.shopMain{
+    justify-content: center;
+    display: flex;
+}
+
+.carouselImage{
+    height: 10vw;
+    width: 10vw;
+}
+
+.carousel{
+    width: 70vw;
+    height: 10vw;
+    top: 3vw;
+}
